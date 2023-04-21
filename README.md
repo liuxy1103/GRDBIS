@@ -45,7 +45,8 @@ docker pull registry.cn-hangzhou.aliyuncs.com/em_seg/v54_higra
 ## Pretrained Model
 The related [pretrained models](https://drive.google.com/drive/folders/1AvPbzRxQJABvvyraoFrElxFtcXlHZJS0) are available, please refer to the testing command for evaluating.
 
-
+##framework
+[main_crop.pdf](https://github.com/liuxy1103/GIDBIS/files/11292157/main_crop.pdf)
 
 
 
