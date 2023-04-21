@@ -14,38 +14,36 @@ docker pull registry.cn-hangzhou.aliyuncs.com/em_seg/v54_higra
 ```
 
 ## Training
-###  2D dataset, take the C_elegans dataset as an example
+###  2D dataset, take the network MobileNetV2 on the C_elegans dataset as an example
 
 ```shell
- python trainKD_Celegans.py -c=seg_snemi3d_d5_1024_u200 
+ python trainKD_Celegans.py -c=Celegans_ResUNet_MobileNetV2
 ```
 
-###  3D dataset, take the AC3/4 dataset as an example
+###  3D dataset, take the network MALA-tiny on the AC3/4 dataset as an example
 
 ```shell
- python trainKD_EM.py -c=seg_snemi3d_d5_1024_u200 
+ python trainKD_EM.py -c=AC34_MALA_MALA-tiny
 ```
-
-## Pretrained Model
-The related [pretrained models](https://drive.google.com/drive/folders/1AvPbzRxQJABvvyraoFrElxFtcXlHZJS0) are available, please refer to the testing command for evaluating.
 
 
 ## Testing
 
 
-###  2D dataset, take the C_elegans dataset as an example
+###  2D dataset, take the network MobileNetV2 on the C_elegans dataset as an example
 
 ```shell
- python inference_Celegans.py 
+ python inference_Celegans.py -mn=ResUNet_MobileNetV2_KD
 ```
 
-###  3D dataset, take the AC3/4 dataset as an example
+###  3D dataset, take the network MALA-tiny on the AC3/4 dataset as an example
 
 ```shell
- python inference_EM.py --c=seg_ac34_dics_mala_o3_emb_aff_emb_KD_s3_div_multiple_aff10_node0.1_edge0.1_CIaff1_CInode0_CIedge1 --mn=2023-02-27--01-38-52_seg_ac34_dics_mala_o3_emb_aff_emb_KD_s3_div_multiple_aff10_node0.1_edge0.1_CIaff1_CInode0_CIedge1 -m=ac3
+ python inference_EM.py -mn=MALA-tiny_KD
 ```
 
-
+## Pretrained Model
+The related [pretrained models](https://drive.google.com/drive/folders/1AvPbzRxQJABvvyraoFrElxFtcXlHZJS0) are available, please refer to the testing command for evaluating.
 
 
 

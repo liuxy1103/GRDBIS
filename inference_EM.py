@@ -54,10 +54,10 @@ def embedding_pca(embeddings, n_components=3, as_rgb=True):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-c', '--cfg', type=str, default='seg_ac34_dics_mala_emb',
+    parser.add_argument('-c', '--cfg', type=str, default='AC34_MALA_MALA-tiny',
                         help='path to config file')
     parser.add_argument('-mn', '--model_name', type=str,
-                        default='2023-02-23--04-06-16_seg_ac34_dics_mala_emb')
+                        default='')
     parser.add_argument('-id', '--model_id', type=int, default=275000)
     parser.add_argument('-m', '--mode', type=str, default='ac3')  # cremiA,fib2
     parser.add_argument('-ts', '--teacher_student', type=str, default='Student3')  # Teacher,Student1,Student2,Student3
