@@ -1,4 +1,4 @@
-# GIDBIS
+# GRDBIS
 **TMI Under Review**
 
 This repo contains code of our paper submitted  , which is an extension version of our work "Efficient Biomedical Instance Segmentation via Knowledge Distillation" published in MICCAI-22.
