@@ -1,5 +1,5 @@
 # GRDBIS: Graph Relation Distillation for Efficient Biomedical Instance Segmentation
-**TCSVT Under Review**
+**Under Review**
 
 This repo contains the code of our paper submitted, which is an extension version of our work "Efficient Biomedical Instance Segmentation via Knowledge Distillation" published in MICCAI-22.
 
