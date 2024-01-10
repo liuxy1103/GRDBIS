@@ -1,11 +1,11 @@
 # GRDBIS: Graph Relation Distillation for Efficient Biomedical Instance Segmentation
 **TCSVT Under Review**
 
-This repo contains code of our paper submitted  , which is an extension version of our work "Efficient Biomedical Instance Segmentation via Knowledge Distillation" published in MICCAI-22.
+This repo contains the code of our paper submitted, which is an extension version of our work "Efficient Biomedical Instance Segmentation via Knowledge Distillation" published in MICCAI-22.
 
 
 ## Installaion
-This code was implemented with Pytorch 1.0.1 (later versions may work), CUDA 9.0, Python 3.7.4 and Ubuntu 16.04. 
+This code was implemented with Pytorch 1.0.1 (later versions may work), CUDA 9.0, Python 3.7.4, and Ubuntu 16.04. 
 
 If you have a [Docker](https://www.docker.com/) environment, we strongly recommend you to pull our image as follows:
 
