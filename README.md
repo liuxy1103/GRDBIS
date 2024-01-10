@@ -43,7 +43,7 @@ docker pull registry.cn-hangzhou.aliyuncs.com/em_seg/v54_higra
 ```
 
 ## Pretrained Model
-The related [pretrained models](https://drive.google.com/drive/folders/1AvPbzRxQJABvvyraoFrElxFtcXlHZJS0) are available, please refer to the testing command for evaluating.
+The related [pretrained models](https://drive.google.com/drive/folders/1AvPbzRxQJABvvyraoFrElxFtcXlHZJS0) are available, please refer to the testing command for evaluation.
 
 ## Workflow
 ![image](https://user-images.githubusercontent.com/54794058/233539448-3b417dba-2951-4668-bf33-f55a789733e8.png)
