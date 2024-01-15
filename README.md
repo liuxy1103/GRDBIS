@@ -1,4 +1,4 @@
-# GRDBIS: Graph Relation Distillation for Efficient Biomedical Instance Segmentation
+# GRDBIS: Graph Relation Distillation for Efficient Biomedical Instance Segmentation [Arxiv](https://arxiv.org/abs/2401.06370)
 **Under Review**
 
 This repo contains the code of our paper submitted, which is an extension version of our work "Efficient Biomedical Instance Segmentation via Knowledge Distillation" published in MICCAI-22.
