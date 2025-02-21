@@ -52,7 +52,15 @@ The related [pretrained models](https://drive.google.com/drive/folders/1AvPbzRxQ
 ![image](https://user-images.githubusercontent.com/54794058/233539448-3b417dba-2951-4668-bf33-f55a789733e8.png)
 
 
+## Dataset
 
+| Datasets                                                     | Training set | Validation set | Test set      | Download (Processed)                                         |
+| ------------------------------------------------------------ | ------------ | -------------- | ------------- | ------------------------------------------------------------ |
+| [CVPPP (A1)](https://competitions.codalab.org/competitions/18405) | 530x500x108  | 530x500x20     | 530x500x33    | [BaiduYun](https://pan.baidu.com/s/1fH5ek1Zy5pz5R0HQfaUbTg) (Access code: weih) or [GoogleDrive](https://drive.google.com/drive/folders/1IsPmaBjDXkSyzPXKjB4GIwHb_5pVVXBe?usp=sharing) |
+| [BBBC039V1](https://bbbc.broadinstitute.org/BBBC039)         | 520x696x100  | 520x696x50     | 520x696x50    | [BaiduYun](https://pan.baidu.com/s/1S2tYjfN4-mMIRgnxfY8QsQ) (Access code: weih) or [GoogleDrive](https://drive.google.com/drive/folders/1IsPmaBjDXkSyzPXKjB4GIwHb_5pVVXBe?usp=sharing) |
+| [AC3/AC4](https://software.rc.fas.harvard.edu/lichtman/vast/<br/>AC3AC4Package.zip) | 1024x1024x80 | 1024x1024x20   | 1024x1024x100 | [BaiduYun](https://pan.baidu.com/s/1rY6MlALpzvkYTgn04qghjQ) (Access code: weih) or [GoogleDrive](https://drive.google.com/drive/folders/1IsPmaBjDXkSyzPXKjB4GIwHb_5pVVXBe?usp=sharing) |
+
+Download and unzip them in corresponding folders in './data'.
 
 
 ## Contact
