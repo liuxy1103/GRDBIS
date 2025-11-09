@@ -1,6 +1,6 @@
 # GRDBIS: Graph Relation Distillation for Efficient Biomedical Instance Segmentation 
-**Under Review**
-[Arxiv](https://arxiv.org/abs/2401.06370)
+**Published on Pattern Recognition**
+[PR]([https://arxiv.org/abs/2401.06370](https://www.sciencedirect.com/science/article/abs/pii/S003132032500408X))
 
 
 
